@@ -1,0 +1,9 @@
+Ramin Yazdani | Weekly Calendar Planner | main | feat(init): Initial repository setup with README and gitignore
+
+Project initialization establishing the foundation for a weekly calendar planner application.
+Created basic repository structure with Python .gitignore patterns to exclude common Python
+development artifacts (pycache, virtual environments, IDE files). Added initial README.md
+outlining the project concept and empty requirements.txt placeholder for future dependencies.
+
+This represents a standard first commit for any Python project, establishing the repository
+structure and documentation foundation before implementing any actual functionality.
