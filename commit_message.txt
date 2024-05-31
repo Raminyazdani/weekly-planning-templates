@@ -1,9 +1,11 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(init): Initial repository setup with README and gitignore
+Ramin Yazdani | Weekly Calendar Planner | main | feat(api): Add Flask web server with entry endpoint
 
-Project initialization establishing the foundation for a weekly calendar planner application.
-Created basic repository structure with Python .gitignore patterns to exclude common Python
-development artifacts (pycache, virtual environments, IDE files). Added initial README.md
-outlining the project concept and empty requirements.txt placeholder for future dependencies.
+Implemented basic Flask web application providing API capability for programmatic calendar
+entry submission. Created app.py with a POST endpoint at /entry to receive calendar event
+data in JSON format. Server configured to run on port 5000 with debug mode enabled for
+development. Added flask dependency to requirements.txt.
 
-This represents a standard first commit for any Python project, establishing the repository
-structure and documentation foundation before implementing any actual functionality.
+This early addition of web API capability allows future integration with external systems
+and provides a programmatic interface for event submission beyond manual CSV editing.
+The decision to include API functionality from the start reflects anticipation of broader
+use cases beyond local script execution.
