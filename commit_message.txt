@@ -1,11 +1,15 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(api): Add Flask web server with entry endpoint
+Ramin Yazdani | Weekly Calendar Planner | main | WIP(data): Add event data structure and sample CSV files
 
-Implemented basic Flask web application providing API capability for programmatic calendar
-entry submission. Created app.py with a POST endpoint at /entry to receive calendar event
-data in JSON format. Server configured to run on port 5000 with debug mode enabled for
-development. Added flask dependency to requirements.txt.
+Defined the event data model using CSV format for simplicity and human readability. Created
+sample data files (data.csv) demonstrating various event types and recurrence patterns.
+Added new_main.py containing documentation of the expected data format with column
+descriptions and example values. Included pandas dependency for data processing.
 
-This early addition of web API capability allows future integration with external systems
-and provides a programmatic interface for event submission beyond manual CSV editing.
-The decision to include API functionality from the start reflects anticipation of broader
-use cases beyond local script execution.
+WARNING: This commit contains a bug - the Flask endpoint route decorator has a typo
+(/entrey instead of /entry) that will cause 404 errors when testing the API endpoint.
+This will be discovered and fixed in the next commit during manual API testing.
+
+The CSV-based approach provides a simple, widely-compatible data format that users can
+edit with any text editor or spreadsheet application. Sample data demonstrates the
+flexibility of the event system with different recurrence patterns (daily, weekly,
+bi-weekly, one-time events).
