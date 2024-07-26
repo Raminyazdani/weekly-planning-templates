@@ -1,15 +1,10 @@
-Ramin Yazdani | Weekly Calendar Planner | main | WIP(data): Add event data structure and sample CSV files
+Ramin Yazdani | Weekly Calendar Planner | main | feat(api): Fix typo in Flask endpoint path
 
-Defined the event data model using CSV format for simplicity and human readability. Created
-sample data files (data.csv) demonstrating various event types and recurrence patterns.
-Added new_main.py containing documentation of the expected data format with column
-descriptions and example values. Included pandas dependency for data processing.
+Hotfix correcting Flask route decorator typo from /entrey to /entry. Bug was discovered
+during manual API testing when POST requests to /entry returned 404 errors. Code review
+revealed the typo in the decorator.
 
-WARNING: This commit contains a bug - the Flask endpoint route decorator has a typo
-(/entrey instead of /entry) that will cause 404 errors when testing the API endpoint.
-This will be discovered and fixed in the next commit during manual API testing.
-
-The CSV-based approach provides a simple, widely-compatible data format that users can
-edit with any text editor or spreadsheet application. Sample data demonstrates the
-flexibility of the event system with different recurrence patterns (daily, weekly,
-bi-weekly, one-time events).
+This type of typo is common during rapid development and typically caught during the first
+manual test of the endpoint. The fix is immediate and straightforward - a single character
+change that resolves the routing issue completely. This represents realistic iterative
+development where small mistakes are caught and fixed quickly during testing.
