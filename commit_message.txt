@@ -1,14 +1,14 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(calendar): Implement master calendar date range generation
+Ramin Yazdani | Weekly Calendar Planner | main | feat(calendar): Add German holiday integration to master calendar
 
-Built the foundation for calendar operations by implementing core date range generation
-logic. Added functions in main.py for loading CSV data, converting column types (dates,
-times, booleans), and creating the master calendar dataframe spanning user-specified date
-ranges. Implemented weekend detection to identify non-working days.
+Enhanced master calendar with German public holiday support using the workalendar library.
+Added Germany calendar object, holiday detection logic, and IsOffDay flag that combines
+both weekends and holidays into a unified indicator for non-working days. Holiday names
+and dates are now integrated into the master calendar dataframe.
 
-The master calendar serves as the backbone for all subsequent event mapping and
-visualization operations. By creating a comprehensive date range upfront, the system can
-efficiently map events to specific dates and handle recurring patterns. Weekend detection
-prepares for future holiday integration to identify all non-working days.
+Holiday integration is essential for realistic schedule planning, particularly for
+academic or professional schedules. The choice of German holidays reflects the developer's
+location and target use case. The unified IsOffDay flag simplifies downstream logic by
+providing a single boolean indicator for all types of non-working days.
 
-This represents the first major piece of business logic, establishing the data structures
-and operations that all other features will build upon.
+Added workalendar to requirements.txt to support comprehensive holiday calculations
+across different years and regions.
