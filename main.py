@@ -42,11 +42,56 @@ def create_master_calendar_with_holidays(df):
     master_calendar = master_calendar.reset_index(drop=True)
     return master_calendar
 
+
+def extend_original_df(org_df):
+    extended_rows = []
+    for _, row in org_df.iterrows():
+        if row['Status'] == False:
+            continue
+        start_date = row['date start']
+        end_date = row['date end']
+        weekday = row['day']
+        
+        if row.get('weekly') == True:
+            date_range = pd.date_range(start=start_date, end=end_date)
+            for date in date_range:
+                if date.strftime('%A') == weekday:
+                    new_row = row.copy()
+                    new_row['date start'] = date
+                    new_row['date end'] = date
+                    extended_rows.append(new_row)
+        elif row.get('one-time') == True:
+            date_range = pd.date_range(start=start_date, end=end_date)
+            for date in date_range:
+                new_row = row.copy()
+                new_row['date start'] = date
+                new_row['date end'] = date
+                extended_rows.append(new_row)
+                
+    res = pd.DataFrame(extended_rows)
+    res = res.reset_index(drop=True)
+    res.rename(columns={'date start':'date'}, inplace=True)
+    res.drop(columns=['date end'], inplace=True)
+    return res
+
+def aggregate_mc_df(df,mc):
+    for index, row in mc.iterrows():
+        chidls = []
+        for _, row2 in df.iterrows():
+            if row['date'] == row2['date']:
+                chidls.append(_)
+        childs =  '-'.join(map(str, chidls))
+        mc.at[index, 'childs'] = childs
+    return mc
+
 if __name__ == '__main__':
     file_path = 'temp.csv'
     data = load_data(file_path)
     df_org = to_pandas(data)
     df_org = resolve_columns_type(df_org)
     mc = create_master_calendar_with_holidays(df_org)
+    extended_df = extend_original_df(df_org)
+    mc = aggregate_mc_df(extended_df, mc)
     mc.to_csv('master_calendar.csv', index=False)
-    print("Master calendar created!")
+    extended_df.to_csv('extended_data.csv', index=False)
+    print("Master calendar and extended data created!")

@@ -1,14 +1,16 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(calendar): Add German holiday integration to master calendar
+Ramin Yazdani | Weekly Calendar Planner | main | feat(events): Add recurring event expansion logic
 
-Enhanced master calendar with German public holiday support using the workalendar library.
-Added Germany calendar object, holiday detection logic, and IsOffDay flag that combines
-both weekends and holidays into a unified indicator for non-working days. Holiday names
-and dates are now integrated into the master calendar dataframe.
+Implemented the core feature for handling recurring events across extended date ranges.
+Added extend_original_df function that expands events marked as weekly, bi-weekly, daily,
+or one-time across their specified date ranges, creating individual event instances for
+each occurrence. Added aggregate_mc_df function to link expanded events to master calendar
+dates.
 
-Holiday integration is essential for realistic schedule planning, particularly for
-academic or professional schedules. The choice of German holidays reflects the developer's
-location and target use case. The unified IsOffDay flag simplifies downstream logic by
-providing a single boolean indicator for all types of non-working days.
+This functionality allows users to define recurring events once (e.g., "Weekly tutorial
+on Tuesdays") and have them automatically expanded across an entire semester or year.
+Supports multiple recurrence patterns: daily (every day), weekly (same weekday each week),
+bi-weekly (alternating weeks), and one-time (single occurrence). This eliminates tedious
+manual entry of repetitive events.
 
-Added workalendar to requirements.txt to support comprehensive holiday calculations
-across different years and regions.
+The event expansion logic is central to the application's value proposition, transforming
+concise CSV definitions into complete, detailed schedules spanning extended periods.
