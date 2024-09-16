@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Vertical Schedule Form</title>
+<style>
+  :root { font-family: system-ui, Arial, sans-serif; }
+  body { margin: 24px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  th, td { border: 1px solid #ddd; padding: 8px; vertical-align: top; }
+  th { text-align: left; background: #fafafa; width: 200px; }
+  input[type="date"], input[type="time"], input[type="number"],
+  input[type="text"], select, textarea {
+    width: 100%; box-sizing: border-box; padding: 6px; font: inherit;
+  }
+  textarea { min-height: 60px; resize: vertical; }
+  .days { display: flex; flex-wrap: wrap; gap: 8px; }
+  .controls { margin: 12px 0; display: flex; gap: 8px; }
+  button { padding: 8px 12px; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<h1>Schedule Form (Vertical Layout)</h1>
+
+<div class="controls">
+  <button type="button" id="addEntryBtn">+ Add Entry</button>
+  <button type="button" id="exportBtn">Export JSON</button>
+</div>
+
+<form id="scheduleForm">
+  <div id="entries">
+    <!-- Template entry -->
+    <table class="entry">
+      <tbody>
+        <tr><th># date start</th><td><input name="date_start" type="date" /></td></tr>
+        <tr><th># date end</th><td><input name="date_end" type="date" /></td></tr>
+        <tr><th># title</th><td><input name="title" type="text" /></td></tr>
+        <tr><th># occurance</th>
+          <td>
+            <select name="occurance">
+              <option value="one-time">one-time</option>
+              <option value="odd">repeated: odd</option>
+              <option value="even">repeated: even</option>
+              <option value="weekly">repeated: weekly</option>
+              <option value="bi-weekly">repeated: bi-weekly</option>
+              <option value="monthly">repeated: monthly</option>
+              <option value="yearly">repeated: yearly</option>
+            </select>
+          </td>
+        </tr>
+        <tr><th># day (if repeated)</th>
+          <td>
+            <div class="days">
+              <label><input type="checkbox" name="days" value="Mon"> Mon</label>
+              <label><input type="checkbox" name="days" value="Tue"> Tue</label>
+              <label><input type="checkbox" name="days" value="Wed"> Wed</label>
+              <label><input type="checkbox" name="days" value="Thu"> Thu</label>
+              <label><input type="checkbox" name="days" value="Fri"> Fri</label>
+              <label><input type="checkbox" name="days" value="Sat"> Sat</label>
+              <label><input type="checkbox" name="days" value="Sun"> Sun</label>
+            </div>
+          </td>
+        </tr>
+        <tr><th># type-entery</th>
+          <td>
+            <select name="type_entery">
+              <option value="lecture">lecture</option>
+              <option value="tutorial">tutorial</option>
+              <option value="lab">lab</option>
+              <option value="assignment">assignment</option>
+              <option value="exam">exam</option>
+              <option value="personal">personal</option>
+              <option value="work">work</option>
+              <option value="self-study">self-study</option>
+              <option value="leisure">leisure</option>
+              <option value="other">other</option>
+            </select>
+          </td>
+        </tr>
+        <tr><th># group</th><td><input name="group" type="text" placeholder="Group name (optional)" /></td></tr>
+        <tr><th># priority</th>
+          <td>
+            <select name="priority">
+              <option value="low">low</option>
+              <option value="medium">medium</option>
+              <option value="high">high</option>
+            </select>
+          </td>
+        </tr>
+        <tr><th># status</th>
+          <td>
+            <select name="status">
+              <option value="pending">pending</option>
+              <option value="completed">completed</option>
+            </select>
+          </td>
+        </tr>
+        <tr><th># time-start</th><td><input name="time_start" type="time" /></td></tr>
+        <tr><th># time-end</th><td><input name="time_end" type="time" /></td></tr>
+        <tr><th># duration (min)</th><td><input name="duration" type="number" min="0" step="1" placeholder="minutes" /></td></tr>
+        <tr><th># location</th><td><input name="location" type="text" placeholder="Location" /></td></tr>
+        <tr><th># notes</th><td><textarea name="notes" placeholder="Any notes…"></textarea></td></tr>
+        <tr><th>Actions</th>
+          <td>
+            <button type="button" class="duplicate">Duplicate</button>
+            <button type="button" class="remove">Remove</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</form>
+
+<pre id="output" style="margin-top:16px; background:#f6f6f6; padding:12px; border:1px solid #ddd; display:none;"></pre>
+
+<script>
+(function(){
+  const entries = document.getElementById('entries');
+  const addEntryBtn = document.getElementById('addEntryBtn');
+  const exportBtn = document.getElementById('exportBtn');
+  const output = document.getElementById('output');
+
+  function cloneEntry(entry){
+    const newEntry = entry.cloneNode(true);
+    newEntry.querySelectorAll('input, textarea, select').forEach(el => {
+      if (el.type === 'checkbox') el.checked = false;
+      else el.value = '';
+    });
+    bindEntryButtons(newEntry);
+    return newEntry;
+  }
+
+  function bindEntryButtons(entry){
+    entry.querySelector('.duplicate')?.addEventListener('click', () => {
+      entries.appendChild(cloneEntry(entry));
+    });
+    entry.querySelector('.remove')?.addEventListener('click', () => {
+      if (entries.querySelectorAll('.entry').length > 1) entry.remove();
+    });
+  }
+
+  // Bind initial
+  bindEntryButtons(entries.querySelector('.entry'));
+
+  addEntryBtn.addEventListener('click', () => {
+    const last = entries.querySelector('.entry:last-child');
+    entries.appendChild(cloneEntry(last));
+  });
+
+  exportBtn.addEventListener('click', () => {
+    const entryTables = Array.from(entries.querySelectorAll('.entry'));
+    const data = entryTables.map(tbl => {
+      const get = name => tbl.querySelector(`[name="${name}"]`);
+      const getAll = name => Array.from(tbl.querySelectorAll(`[name="${name}"]`));
+      return {
+        date_start : get('date_start')?.value || '',
+        date_end   : get('date_end')?.value || '',
+        title      : get('title')?.value || '',
+        occurance  : get('occurance')?.value || 'one-time',
+        day        : getAll('days').filter(c => c.checked).map(c => c.value),
+        type_entery: get('type_entery')?.value || '',
+        group      : get('group')?.value || '',
+        priority   : get('priority')?.value || 'medium',
+        status     : get('status')?.value || 'pending',
+        time_start : get('time_start')?.value || '',
+        time_end   : get('time_end')?.value || '',
+        duration   : get('duration')?.value || '',
+        location   : get('location')?.value || '',
+        notes      : get('notes')?.value || ''
+      };
+    });
+    output.style.display = 'block';
+    output.textContent = JSON.stringify(data, null, 2);
+  });
+})();
+</script>
+
+</body>
+</html>
+<script>
+document.getElementById("scheduleForm").addEventListener("submit", async (e) => {
+  e.preventDefault(); // stop page reload
+
+  // If you have multiple vertical "entry" blocks, pick the one being submitted.
+  // Here, as an example, we'll grab values from the first .entry table:
+  const entry = document.querySelector(".entry");
+
+  const get = name => entry.querySelector(`[name="${name}"]`);
+  const getAll = name => Array.from(entry.querySelectorAll(`[name="${name}"]`));
+
+  const payload = {
+    date_start : get('date_start')?.value || '',
+    date_end   : get('date_end')?.value || '',
+    title      : get('title')?.value || '',
+    occurance  : get('occurance')?.value || 'one-time',
+    day        : getAll('days').filter(c => c.checked).map(c => c.value),
+    type_entery: get('type_entery')?.value || '',
+    group      : get('group')?.value || '',
+    priority   : get('priority')?.value || 'medium',
+    status     : get('status')?.value || 'pending',
+    time_start : get('time_start')?.value || '',
+    time_end   : get('time_end')?.value || '',
+    duration   : get('duration')?.value || '',
+    location   : get('location')?.value || '',
+    notes      : get('notes')?.value || ''
+  };
+
+  try {
+    const res = await fetch("http://127.0.0.1:5000/entry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok) {
+      const txt = await res.text();
+      alert("Server error: " + txt);
+      return;
+    }
+    const data = await res.json();
+    console.log("Server response:", data);
+    alert("Submitted OK!");
+  } catch (err) {
+    console.error(err);
+    alert("Cannot reach local server. Is Flask running?");
+  }
+});
+</script>

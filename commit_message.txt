@@ -1,16 +1,16 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(events): Add recurring event expansion logic
+Ramin Yazdani | Weekly Calendar Planner | main | feat(viz): Add basic calendar visualization with matplotlib
 
-Implemented the core feature for handling recurring events across extended date ranges.
-Added extend_original_df function that expands events marked as weekly, bi-weekly, daily,
-or one-time across their specified date ranges, creating individual event instances for
-each occurrence. Added aggregate_mc_df function to link expanded events to master calendar
-dates.
+Implemented initial visual calendar generation using matplotlib for high-quality PNG output.
+Created draw_calendar function establishing the rendering pipeline with figure and axis
+setup. Basic time-blocked schedule display showing events positioned by date and time.
+Added matplotlib and click dependencies to requirements.txt.
 
-This functionality allows users to define recurring events once (e.g., "Weekly tutorial
-on Tuesdays") and have them automatically expanded across an entire semester or year.
-Supports multiple recurrence patterns: daily (every day), weekly (same weekday each week),
-bi-weekly (alternating weeks), and one-time (single occurrence). This eliminates tedious
-manual entry of repetitive events.
+Visual representation is essential for practical weekly planning - numerical data alone is
+insufficient for quick schedule comprehension. Matplotlib was chosen for its flexibility
+and ability to generate publication-quality graphics. The time-blocked layout provides
+intuitive visualization where event blocks are proportional to duration and positioned
+by start time.
 
-The event expansion logic is central to the application's value proposition, transforming
-concise CSV definitions into complete, detailed schedules spanning extended periods.
+This establishes the foundation of the visualization engine, with basic plotting structure
+that subsequent commits will enhance with color-coding, auto-sizing text, and other
+visual improvements.
