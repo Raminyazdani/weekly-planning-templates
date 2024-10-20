@@ -1,15 +1,15 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(viz): Add color coding by event group with persistent colors
+Ramin Yazdani | Weekly Calendar Planner | main | feat(viz): Add automatic font sizing for event text
 
-Enhanced calendar visualization with automatic color-coding based on event groups. Each
-group is assigned a unique color generated from a hash of the group name. Implemented
-color dictionary persistence to maintain consistent colors across multiple runs, ensuring
-the same group always receives the same color.
+Implemented auto-sizing text rendering for event names within calendar blocks. Event text
+automatically scales down to fit within time blocks, handling variable-length event names
+gracefully. Added font fitting functions that calculate maximum font size based on
+available space while preventing text overflow.
 
-Color-coding dramatically improves calendar readability by allowing visual distinction
-between different event categories (e.g., lectures, personal time, work commitments).
-Color persistence provides consistent user experience - users learn to associate specific
-colors with specific groups, making schedule comprehension faster with repeated use.
+Event names vary significantly in length (from short acronyms to long descriptive titles).
+Without auto-sizing, either short names would be unnecessarily small or long names would
+overflow their blocks. The auto-sizing algorithm maximizes font size for better visibility
+while ensuring all text fits cleanly within its allocated space.
 
-The hash-based color generation ensures automatic assignment without requiring manual
-color configuration, while the persistence mechanism (storing colors to a file/dict)
-prevents color reassignment between runs.
+This enhancement improves both aesthetics and practicality - every event is clearly
+labeled regardless of name length, and the calendar maintains professional appearance
+without manual font size adjustments.
