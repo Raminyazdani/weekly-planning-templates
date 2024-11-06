@@ -1,15 +1,15 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(viz): Add automatic font sizing for event text
+Ramin Yazdani | Weekly Calendar Planner | main | feat(frames): Add 7-day sliding window frame generation
 
-Implemented auto-sizing text rendering for event names within calendar blocks. Event text
-automatically scales down to fit within time blocks, handling variable-length event names
-gracefully. Added font fitting functions that calculate maximum font size based on
-available space while preventing text overflow.
+Added weekly frame generation feature creating multiple 7-day sliding window visualizations.
+Users can now browse through extended schedules (e.g., entire semester) week by week.
+Initial implementation processes frames sequentially. Created frames/ output directory for
+storing individual weekly PNG files.
 
-Event names vary significantly in length (from short acronyms to long descriptive titles).
-Without auto-sizing, either short names would be unnecessarily small or long names would
-overflow their blocks. The auto-sizing algorithm maximizes font size for better visibility
-while ensuring all text fits cleanly within its allocated space.
+For long date ranges (e.g., 6-month semester), a single calendar visualization becomes
+impractically large and hard to read. The sliding window approach generates a series of
+weekly views that users can navigate through, similar to flipping pages in a physical
+planner. Each frame shows exactly 7 days, providing optimal readability.
 
-This enhancement improves both aesthetics and practicality - every event is clearly
-labeled regardless of name length, and the calendar maintains professional appearance
-without manual font size adjustments.
+Sequential processing was chosen initially to verify correctness and proper frame
+generation logic before optimization. This commit focuses on establishing the frame
+generation feature, with performance optimization to follow in the next commit.
