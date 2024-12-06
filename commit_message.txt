@@ -1,15 +1,16 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(frames): Add 7-day sliding window frame generation
+Ramin Yazdani | Weekly Calendar Planner | main | feat(frames): Optimize frame generation with parallel processing
 
-Added weekly frame generation feature creating multiple 7-day sliding window visualizations.
-Users can now browse through extended schedules (e.g., entire semester) week by week.
-Initial implementation processes frames sequentially. Created frames/ output directory for
-storing individual weekly PNG files.
+Converted frame generation from sequential to multi-threaded parallel processing using
+ThreadPoolExecutor. Utilizes CPU count - 1 workers for efficient multi-core utilization
+while leaving one core available for system tasks. Significant performance improvement
+for generating large numbers of frames (100+ for extended date ranges).
 
-For long date ranges (e.g., 6-month semester), a single calendar visualization becomes
-impractically large and hard to read. The sliding window approach generates a series of
-weekly views that users can navigate through, similar to flipping pages in a physical
-planner. Each frame shows exactly 7 days, providing optimal readability.
+Frame generation is CPU-intensive, involving matplotlib rendering for each weekly window.
+For a 6-month period, this can mean 100+ individual frame renders. Sequential processing
+made this prohibitively slow. Parallel processing leverages modern multi-core CPUs to
+generate multiple frames simultaneously.
 
-Sequential processing was chosen initially to verify correctness and proper frame
-generation logic before optimization. This commit focuses on establishing the frame
-generation feature, with performance optimization to follow in the next commit.
+The implementation uses ThreadPoolExecutor with automatic worker count based on available
+CPU cores, ensuring optimal performance across different hardware configurations. This
+optimization reduces generation time from minutes to seconds for typical use cases,
+making the application practical for extended date ranges.
