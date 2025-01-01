@@ -1,16 +1,18 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(frames): Optimize frame generation with parallel processing
+Ramin Yazdani | Weekly Calendar Planner | main | WIP(ui): Add HTML form for manual event entry
 
-Converted frame generation from sequential to multi-threaded parallel processing using
-ThreadPoolExecutor. Utilizes CPU count - 1 workers for efficient multi-core utilization
-while leaving one core available for system tasks. Significant performance improvement
-for generating large numbers of frames (100+ for extended date ranges).
+Created user-friendly HTML form interface for manual event data entry. Form includes
+dropdowns for event types and days, date pickers for date ranges, time inputs, and
+checkboxes for recurrence patterns. Supports all event fields with appropriate input types
+and includes basic JavaScript validation.
 
-Frame generation is CPU-intensive, involving matplotlib rendering for each weekly window.
-For a 6-month period, this can mean 100+ individual frame renders. Sequential processing
-made this prohibitively slow. Parallel processing leverages modern multi-core CPUs to
-generate multiple frames simultaneously.
+WARNING: This commit contains a spelling error - the event type dropdown includes "leasure"
+instead of "leisure" in multiple locations. This typo will be noticed during UI testing
+and corrected in the next commit.
 
-The implementation uses ThreadPoolExecutor with automatic worker count based on available
-CPU cores, ensuring optimal performance across different hardware configurations. This
-optimization reduces generation time from minutes to seconds for typical use cases,
-making the application practical for extended date ranges.
+The form provides a more accessible interface for users uncomfortable with direct CSV
+editing. Particularly useful for quick event additions or modifications without opening
+spreadsheet applications. The form validates required fields and enforces proper data
+formats, reducing user errors compared to manual CSV editing.
+
+This represents an alternative input method complementing the CSV workflow, catering to
+different user preferences and use cases.
