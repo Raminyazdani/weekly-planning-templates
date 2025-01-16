@@ -1,18 +1,14 @@
-Ramin Yazdani | Weekly Calendar Planner | main | WIP(ui): Add HTML form for manual event entry
+Ramin Yazdani | Weekly Calendar Planner | main | feat(ui): Fix spelling - leasure to leisure in HTML form
 
-Created user-friendly HTML form interface for manual event data entry. Form includes
-dropdowns for event types and days, date pickers for date ranges, time inputs, and
-checkboxes for recurrence patterns. Supports all event fields with appropriate input types
-and includes basic JavaScript validation.
+Hotfix correcting spelling error in HTML form event type options. Changed "leasure" to
+"leisure" throughout the form (option values and labels) to ensure proper spelling
+consistency and data quality.
 
-WARNING: This commit contains a spelling error - the event type dropdown includes "leasure"
-instead of "leisure" in multiple locations. This typo will be noticed during UI testing
-and corrected in the next commit.
+Spelling errors in user-facing UI are unprofessional and can affect data consistency if
+users select the misspelled option. This error was caught during manual UI testing while
+reviewing the form interface. The fix ensures proper spelling in dropdown options and
+maintains data quality by preventing misspelled values from entering the dataset.
 
-The form provides a more accessible interface for users uncomfortable with direct CSV
-editing. Particularly useful for quick event additions or modifications without opening
-spreadsheet applications. The form validates required fields and enforces proper data
-formats, reducing user errors compared to manual CSV editing.
-
-This represents an alternative input method complementing the CSV workflow, catering to
-different user preferences and use cases.
+This is a realistic typo that could slip through initial development but would be
+immediately noticed by the first person to interact with the form. Quick correction
+maintains professional appearance and data integrity.
