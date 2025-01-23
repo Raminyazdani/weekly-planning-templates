@@ -1,14 +1,16 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(ui): Fix spelling - leasure to leisure in HTML form
+Ramin Yazdani | Weekly Calendar Planner | main | feat(dev): Add testing and development utilities
 
-Hotfix correcting spelling error in HTML form event type options. Changed "leasure" to
-"leisure" throughout the form (option values and labels) to ensure proper spelling
-consistency and data quality.
+Added utility scripts for development, testing, and validation. Created test.py for date
+iteration testing, testing.py for data processing utilities (especially bi-weekly
+recurrence logic), and dayereh.txt containing sample numeric data for validation purposes.
 
-Spelling errors in user-facing UI are unprofessional and can affect data consistency if
-users select the misspelled option. This error was caught during manual UI testing while
-reviewing the form interface. The fix ensures proper spelling in dropdown options and
-maintains data quality by preventing misspelled values from entering the dataset.
+These utilities support the development process by providing dedicated tools for testing
+specific components in isolation. The bi-weekly recurrence calculation is particularly
+tricky (accounting for alternating weeks), so having a standalone utility for verification
+helps ensure correctness. These scripts remain separate from the main application to keep
+the core codebase clean and focused.
 
-This is a realistic typo that could slip through initial development but would be
-immediately noticed by the first person to interact with the form. Quick correction
-maintains professional appearance and data integrity.
+Development utilities like these are common in real projects - they represent the informal
+tooling developers create to verify logic, debug issues, and validate edge cases during
+implementation. They provide value during development without cluttering the production
+code.
