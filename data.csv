@@ -1,4 +1,10 @@
 date start,date end,type,group,day,bi-weekly,one-time,name,time start,time end,Status,To-Fill,Location,Additional Info
-7/4/2025,18/7/2025,uni-lecture,Cellular program,Tuesday,False,False,Lecture,10:15,11:45,True,False,E2.1 Room 001,
-7/4/2025,18/7/2025,uni-tutorial,Cellular program,?,True,False,Tutorial,,,False,False,,
-7/4/2025,18/7/2025,uni-lecture,Data Network,Tuesday,False,False,Lecture,14:00,16:00,True,False,E1.3 room 002,
+7/4/2025,18/7/2025,lecture,Cellular program,Tuesday,False,False,Lecture,10:15,11:45,True,False,E2.1 Room 001,
+7/4/2025,18/7/2025,tutorial,Cellular program,?,True,False,Tutorial,,,False,False,,
+7/4/2025,18/7/2025,lecture,Data Network,Tuesday,False,False,Lecture,14:00,16:00,True,False,E1.3 room 002,
+7/4/2025,18/7/2025,lecture,Data Network,Friday,False,False,Lecture,14:00,16:00,True,False,E1.3 room 002,
+7/4/2025,18/7/2025,tutorial,Data Network,Wednesday,False,False,Tutorial Online,10:00,12:00,True,False,Online,
+7/4/2025,18/7/2025,lecture,Programming C++,Tuesday,False,False,Lecture,12:15,13:45,True,False,E2.1 Room 001,
+7/4/2025,18/7/2025,tutorial,Programming C++,Tuesday,False,False,Tutorial,14:15,15:45,True,False,E2.1 Room 001,
+7/4/2025,18/7/2025,lecture,Deutsch Language,Monday,False,False,Lecture Online,16:00,18:00,True,False,Online,
+7/4/2025,18/7/2025,lecture,Deutsch Language,Thursday,False,False,Lecture Online,16:00,18:00,True,False,Online,

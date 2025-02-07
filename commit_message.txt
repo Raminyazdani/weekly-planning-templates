@@ -1,16 +1,16 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(dev): Add testing and development utilities
+Ramin Yazdani | Weekly Calendar Planner | main | feat(portfolio): Remove academic prefixes from event types
 
-Added utility scripts for development, testing, and validation. Created test.py for date
-iteration testing, testing.py for data processing utilities (especially bi-weekly
-recurrence logic), and dayereh.txt containing sample numeric data for validation purposes.
+Portfolio refinement removing "uni-" prefixes from event types to make the application
+more generic and professional. Changed uni-lecture → lecture, uni-tutorial → tutorial,
+uni-assignment → assignment, uni-exam → exam, uni-lab → lab throughout all data files
+(events.csv, data.csv, extended_data.csv), HTML form options, and documentation.
 
-These utilities support the development process by providing dedicated tools for testing
-specific components in isolation. The bi-weekly recurrence calculation is particularly
-tricky (accounting for alternating weeks), so having a standalone utility for verification
-helps ensure correctness. These scripts remain separate from the main application to keep
-the core codebase clean and focused.
+The academic "uni-" prefix limited the application's perceived applicability to university
+contexts only. Generic event types make the tool applicable to any scheduling scenario
+(professional, personal, mixed) and present more professionally in a portfolio context.
+This change demonstrates thinking beyond the initial use case to create a more versatile
+tool.
 
-Development utilities like these are common in real projects - they represent the informal
-tooling developers create to verify logic, debug issues, and validate edge cases during
-implementation. They provide value during development without cluttering the production
-code.
+Updated all data files to reflect the new naming convention, ensuring consistency across
+the entire application. Also fixed any remaining typos discovered during this comprehensive
+review of event type usage.
