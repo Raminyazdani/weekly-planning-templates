@@ -1,16 +1,13 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(portfolio): Remove academic prefixes from event types
+Ramin Yazdani | Weekly Calendar Planner | main | feat(portfolio): Rename temp.csv to events.csv
 
-Portfolio refinement removing "uni-" prefixes from event types to make the application
-more generic and professional. Changed uni-lecture → lecture, uni-tutorial → tutorial,
-uni-assignment → assignment, uni-exam → exam, uni-lab → lab throughout all data files
-(events.csv, data.csv, extended_data.csv), HTML form options, and documentation.
+Portfolio refinement renaming temp.csv to events.csv for more descriptive, professional
+naming. Updated file reference in main.py (line 472) to match the new filename.
 
-The academic "uni-" prefix limited the application's perceived applicability to university
-contexts only. Generic event types make the tool applicable to any scheduling scenario
-(professional, personal, mixed) and present more professionally in a portfolio context.
-This change demonstrates thinking beyond the initial use case to create a more versatile
-tool.
+The name "temp" suggests temporary or test data, which is inappropriate for a production
+application. "events.csv" clearly describes the file's purpose and presents more
+professionally. This is important for portfolio presentation where file naming contributes
+to perceived code quality.
 
-Updated all data files to reflect the new naming convention, ensuring consistency across
-the entire application. Also fixed any remaining typos discovered during this comprehensive
-review of event type usage.
+This type of naming improvement is common when transitioning from rapid prototyping to
+production-ready code. Clear, descriptive names improve code comprehension and demonstrate
+attention to detail.

@@ -1,0 +1,25 @@
+date start,date end,type,group,day,daily,weekly,bi-weekly,one-time,name,time start,time end,Status,To-Fill,Location,Additional Info
+7/4/2025,18/7/2025,tutorial,Cellular program,?,False,False,True,False,Tutorial,,,False,False,,
+7/4/2025,18/7/2025,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00,22:00,True,False,Online,Daily language practice
+25/4/2025,25/4/2025,exam,Data Network,Friday,False,False,False,True,Exam,10:00,12:00,True,False,,Data Network Exam
+7/4/2025,18/7/2025,lecture,Data Network,Friday,False,True,False,False,Lecture,14:00,16:00,True,False,E1.3 room 002,
+18/4/2025,18/4/2025,assignment,Data Network,Friday,False,False,False,True,Assignment,16:00,18:00,True,False,,Data Network Assignment
+7/4/2025,18/7/2025,self-study,self study c++,Monday,False,True,False,False,c++,08:00,10:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study german,Monday,False,True,False,False,german,10:00,12:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study data network,Monday,False,True,False,False,data network,12:00,14:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00,19:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study german,Wednesday,False,True,False,False,german,15:00,17:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00,10:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study c++,Thursday,False,True,False,False,c++,08:00,09:00,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study german,Thursday,False,True,False,False,german,9:00,11:30,True,False,,2h session
+7/4/2025,18/7/2025,self-study,self study data network,Thursday,False,True,False,False,"",11:30,13:00,True,False,,2h session
+7/4/2025,18/7/2025,lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00,18:00,True,False,Online,
+21/4/2025,21/4/2025,assignment,Deutsch Language,Monday,False,False,False,True,Assignment,18:00,20:00,True,False,,Deutsch Assignment
+7/4/2025,18/7/2025,lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00,18:00,True,False,Online,
+7/4/2025,18/7/2025,lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15,11:45,True,False,E2.1 Room 001,
+7/4/2025,18/7/2025,lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15,13:45,True,False,E2.1 Room 001,
+7/4/2025,18/7/2025,lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00,16:00,True,False,E1.3 room 002,
+7/4/2025,18/7/2025,tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15,15:45,True,False,E2.1 Room 001,
+22/4/2025,22/4/2025,assignment,Programming C++,Tuesday,False,False,False,True,Assignment,16:00,18:00,True,False,,C++ Assignment
+7/4/2025,18/7/2025,tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00,12:00,True,False,Online,
+7/4/2025,18/7/2025,self-study,self study german,Thursday,False,True,False,False,"",9:00,11:30,True,False,,2h session
