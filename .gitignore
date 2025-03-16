@@ -34,6 +34,20 @@ env/
 *.swo
 *~
 
+# Flask
+instance/
+.webassets-cache
+
+# Generated output files
+calendar.png
+extended_data.csv
+master_calendar.csv
+frames/*.png
+
+# Temporary files
+*.tmp
+temp.csv
+
 # OS
 .DS_Store
 Thumbs.db

@@ -1,13 +1,16 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(portfolio): Rename temp.csv to events.csv
+Ramin Yazdani | Weekly Calendar Planner | main | feat(infra): Add .gitignore and fix dependencies
 
-Portfolio refinement renaming temp.csv to events.csv for more descriptive, professional
-naming. Updated file reference in main.py (line 472) to match the new filename.
+Infrastructure improvements for professional project hygiene. Created comprehensive
+.gitignore covering Python artifacts (__pycache__, *.pyc, virtual environments, IDE
+files), generated output files (frames/, calendar.png, extended_data.csv,
+master_calendar.csv), and common development artifacts. Fixed missing click dependency
+in requirements.txt that was imported by main.py but not listed.
 
-The name "temp" suggests temporary or test data, which is inappropriate for a production
-application. "events.csv" clearly describes the file's purpose and presents more
-professionally. This is important for portfolio presentation where file naming contributes
-to perceived code quality.
+Proper .gitignore configuration prevents committing generated files, build artifacts, and
+local development files to version control. This keeps the repository clean and focused
+on source code. The missing dependency would have caused import errors for new users
+trying to run the application - fixing this ensures proper dependency specification.
 
-This type of naming improvement is common when transitioning from rapid prototyping to
-production-ready code. Clear, descriptive names improve code comprehension and demonstrate
-attention to detail.
+These infrastructure improvements are essential for portfolio quality, demonstrating
+understanding of project organization, dependency management, and version control best
+practices.
