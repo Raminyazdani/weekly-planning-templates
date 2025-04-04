@@ -1,16 +1,17 @@
-Ramin Yazdani | Weekly Calendar Planner | main | feat(infra): Add .gitignore and fix dependencies
+Ramin Yazdani | Weekly Calendar Planner | main | WIP(docs): Add comprehensive README structure and sections
 
-Infrastructure improvements for professional project hygiene. Created comprehensive
-.gitignore covering Python artifacts (__pycache__, *.pyc, virtual environments, IDE
-files), generated output files (frames/, calendar.png, extended_data.csv,
-master_calendar.csv), and common development artifacts. Fixed missing click dependency
-in requirements.txt that was imported by main.py but not listed.
+First phase of major README expansion establishing portfolio-grade documentation structure.
+Added sections for project description, tech stack, repository structure, setup
+instructions, usage examples, input/output documentation, customization guide, and
+troubleshooting. Created section headers and table of contents preparing for detailed
+content in the next commit.
 
-Proper .gitignore configuration prevents committing generated files, build artifacts, and
-local development files to version control. This keeps the repository clean and focused
-on source code. The missing dependency would have caused import errors for new users
-trying to run the application - fixing this ensures proper dependency specification.
+This commit focuses on establishing the documentation framework - the skeleton that will
+be filled with detailed content. Separating structure creation from content writing allows
+focused work on documentation organization before diving into specific details. This
+two-phase approach (structure first, then content) is common for large documentation
+efforts.
 
-These infrastructure improvements are essential for portfolio quality, demonstrating
-understanding of project organization, dependency management, and version control best
-practices.
+Portfolio-grade documentation requires comprehensive coverage of all aspects users need
+to understand, install, and use the application. This structure ensures no important
+topics are overlooked.
