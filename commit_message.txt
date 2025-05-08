@@ -1,17 +1,18 @@
-Ramin Yazdani | Weekly Calendar Planner | main | WIP(docs): Add comprehensive README structure and sections
+Ramin Yazdani | Weekly Calendar Planner | main | feat(docs): Add detailed README content and examples
 
-First phase of major README expansion establishing portfolio-grade documentation structure.
-Added sections for project description, tech stack, repository structure, setup
-instructions, usage examples, input/output documentation, customization guide, and
-troubleshooting. Created section headers and table of contents preparing for detailed
-content in the next commit.
+Completed comprehensive README documentation filling all sections with detailed content.
+Added thorough descriptions of project functionality, complete tech stack explanation,
+detailed setup instructions, data format tables with column descriptions, usage examples,
+output file documentation, customization guide, and troubleshooting section. Removed
+outdated directory references that no longer match current structure.
 
-This commit focuses on establishing the documentation framework - the skeleton that will
-be filled with detailed content. Separating structure creation from content writing allows
-focused work on documentation organization before diving into specific details. This
-two-phase approach (structure first, then content) is common for large documentation
-efforts.
+This represents the content phase of README improvement, building on the structure
+established in the previous commit. Every section now contains practical, detailed
+information that enables users to fully understand and use the application. Includes
+data format tables showing CSV structure, code examples for different use cases, and
+solutions for common issues.
 
-Portfolio-grade documentation requires comprehensive coverage of all aspects users need
-to understand, install, and use the application. This structure ensures no important
-topics are overlooked.
+Portfolio-quality documentation should be accessible to potential employers or
+collaborators, providing all information needed to understand the project's value,
+technical implementation, and practical usage. Clear troubleshooting helps users resolve
+issues independently, reducing support burden.
