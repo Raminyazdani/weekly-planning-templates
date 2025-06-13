@@ -1,0 +1,11 @@
+FILE	LOCATOR	BEFORE_SNIPPET	AFTER_SNIPPET	NOTES
+.gitignore	creation	N/A (file did not exist)	Created with Python, Flask, output patterns	Added .gitignore to prevent committing generated files, Python cache, virtualenv; includes frames/, calendar.png, extended_data.csv, master_calendar.csv
+temp.csv	rename	temp.csv	events.csv	Renamed file from temp.csv to events.csv for more descriptive, professional naming
+main.py	line 472	file_path = 'temp.csv'	file_path = 'events.csv'	Updated file reference to match renamed file
+requirements.txt	line 5	(missing)	click>=8.0.0	Added missing click dependency that is imported in main.py line 8
+events.csv	all rows	uni-lecture, uni-tutorial, uni-assignment, uni-exam, uni-lab	lecture, tutorial, assignment, exam, lab	Removed academic "uni-" prefix from event types throughout file
+data.csv	all rows	uni-lecture, uni-tutorial, uni-lab	lecture, tutorial, lab	Removed academic "uni-" prefix from event types throughout file
+extended_data.csv	all rows	uni-lecture, uni-tutorial, uni-assignment, uni-exam, uni-lab	lecture, tutorial, assignment, exam, lab	Removed academic "uni-" prefix from event types throughout file
+table.html	lines 69-77	<option value="uni-lecture">, uni-tutorial, uni-lab, leasure	<option value="lecture">, tutorial, lab, assignment, exam, leisure	Removed academic "uni-" prefix and fixed typo (leasure→leisure); added assignment and exam options
+new_main.py	line 6	uni-lecture,uni-tutorial,uni-lab,personal,work,self-study,leasure	lecture, tutorial, lab, assignment, exam, personal, work, self-study, leisure	Updated event type documentation, removed uni- prefix, fixed typo (leasure→leisure)
+README.md	entire file	Basic README with "weekly planner" directory references, minimal sections	Portfolio-grade README with comprehensive sections: description, setup, usage, input/output formats, customization, troubleshooting	Complete rewrite: removed "weekly planner" directory references, added detailed sections for Setup, Input Data Format, Output Files, Customization, Troubleshooting; improved professional tone; added table of CSV structure; clarified all development files

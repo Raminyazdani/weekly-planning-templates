@@ -38,11 +38,11 @@ env/
 instance/
 .webassets-cache
 
-# Generated output files
+# Generated output files (do not commit)
 calendar.png
 extended_data.csv
 master_calendar.csv
-frames/*.png
+frames/
 
 # Temporary files
 *.tmp
