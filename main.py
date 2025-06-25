@@ -464,6 +464,7 @@ def draw_calendar(mc_inside, df_inside, start_hour=8, end_hour=20, box_width=2, 
     if no_output == False:
         plt.show()
     fig.savefig(name_file, bbox_inches='tight', dpi=300)
+    plt.close(fig)
 
 
 if __name__ == '__main__':
