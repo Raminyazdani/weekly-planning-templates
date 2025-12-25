@@ -1,0 +1,378 @@
+date,type,group,day,daily,weekly,bi-weekly,one-time,name,time start,time end,Status,To-Fill,Location,Additional Info
+2025-04-07,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-08,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-09,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-10,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-11,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-12,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-13,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-14,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-15,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-16,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-17,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-18,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-19,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-20,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-21,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-22,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-23,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-24,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-25,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-26,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-27,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-28,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-29,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-30,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-01,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-02,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-03,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-04,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-05,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-06,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-07,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-08,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-09,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-10,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-11,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-12,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-13,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-14,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-15,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-16,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-17,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-18,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-19,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-20,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-21,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-22,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-23,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-24,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-25,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-26,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-27,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-28,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-29,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-30,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-05-31,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-01,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-02,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-03,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-04,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-05,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-06,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-07,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-08,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-09,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-10,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-11,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-12,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-13,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-14,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-15,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-16,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-17,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-18,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-19,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-20,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-21,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-22,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-23,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-24,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-25,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-26,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-27,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-28,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-29,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-06-30,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-01,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-02,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-03,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-04,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-05,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-06,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-07,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-08,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-09,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-10,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-11,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-12,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-13,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-14,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-15,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-16,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-17,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-07-18,self-study,Duolingo Study,Daily,True,False,False,False,Duolingo,21:00:00,22:00:00,True,False,Online,Daily language practice
+2025-04-25,uni-exam,Data Network,Friday,False,False,False,True,Exam,10:00:00,12:00:00,True,False,,Data Network Exam
+2025-04-11,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-18,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-25,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-02,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-09,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-16,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-23,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-30,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-06,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-13,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-20,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-27,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-07-04,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-07-11,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-07-18,uni-lecture,Data Network,Friday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-18,uni-assignment,Data Network,Friday,False,False,False,True,Assignment,16:00:00,18:00:00,True,False,,Data Network Assignment
+2025-04-07,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-04-14,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-04-21,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-04-28,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-05-05,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-05-12,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-05-19,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-05-26,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-06-02,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-06-09,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-06-16,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-06-23,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-06-30,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-07-07,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-07-14,self-study,self study c++,Monday,False,True,False,False,c++,08:00:00,10:00:00,True,False,,2h session
+2025-04-07,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-04-14,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-04-21,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-04-28,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-05-05,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-05-12,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-05-19,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-05-26,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-06-02,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-06-09,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-06-16,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-06-23,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-06-30,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-07-07,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-07-14,self-study,self study german,Monday,False,True,False,False,german,10:00:00,12:00:00,True,False,,2h session
+2025-04-07,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-04-14,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-04-21,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-04-28,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-05-05,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-05-12,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-05-19,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-05-26,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-06-02,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-06-09,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-06-16,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-06-23,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-06-30,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-07-07,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-07-14,self-study,self study data network,Monday,False,True,False,False,data network,12:00:00,14:00:00,True,False,,2h session
+2025-04-09,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-04-16,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-04-23,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-04-30,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-05-07,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-05-14,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-05-21,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-05-28,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-06-04,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-06-11,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-06-18,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-06-25,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-07-02,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-07-09,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-07-16,self-study,self study c++,Wednesday,False,True,False,False,c++,17:00:00,19:00:00,True,False,,2h session
+2025-04-09,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-04-16,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-04-23,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-04-30,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-05-07,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-05-14,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-05-21,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-05-28,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-06-04,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-06-11,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-06-18,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-06-25,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-07-02,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-07-09,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-07-16,self-study,self study german,Wednesday,False,True,False,False,german,15:00:00,17:00:00,True,False,,2h session
+2025-04-09,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-04-16,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-04-23,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-04-30,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-05-07,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-05-14,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-05-21,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-05-28,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-06-04,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-06-11,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-06-18,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-06-25,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-07-02,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-07-09,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-07-16,self-study,self study data network,Wednesday,False,True,False,False,data network,08:00:00,10:00:00,True,False,,2h session
+2025-04-10,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-04-17,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-04-24,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-05-01,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-05-08,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-05-15,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-05-22,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-05-29,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-06-05,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-06-12,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-06-19,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-06-26,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-07-03,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-07-10,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-07-17,self-study,self study c++,Thursday,False,True,False,False,c++,08:00:00,09:00:00,True,False,,2h session
+2025-04-10,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-04-17,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-04-24,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-05-01,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-05-08,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-05-15,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-05-22,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-05-29,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-06-05,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-06-12,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-06-19,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-06-26,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-07-03,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-07-10,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-07-17,self-study,self study german,Thursday,False,True,False,False,german,09:00:00,11:30:00,True,False,,2h session
+2025-04-10,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-04-17,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-04-24,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-05-01,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-05-08,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-05-15,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-05-22,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-05-29,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-06-05,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-06-12,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-06-19,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-06-26,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-07-03,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-07-10,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-07-17,self-study,self study data network,Thursday,False,True,False,False,,11:30:00,13:00:00,True,False,,2h session
+2025-04-07,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-14,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-21,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-28,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-05,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-12,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-19,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-26,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-02,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-09,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-16,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-23,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-30,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-07-07,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-07-14,uni-lecture,Deutsch Language,Monday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-21,uni-assignment,Deutsch Language,Monday,False,False,False,True,Assignment,18:00:00,20:00:00,True,False,,Deutsch Assignment
+2025-04-10,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-17,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-24,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-01,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-08,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-15,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-22,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-05-29,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-05,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-12,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-19,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-06-26,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-07-03,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-07-10,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-07-17,uni-lecture,Deutsch Language,Thursday,False,True,False,False,Lecture Online,16:00:00,18:00:00,True,False,Online,
+2025-04-08,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-04-15,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-04-22,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-04-29,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-05-06,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-05-13,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-05-20,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-05-27,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-06-03,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-06-10,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-06-17,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-06-24,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-07-01,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-07-08,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-07-15,uni-lecture,Cellular program,Tuesday,False,True,False,False,Lecture,10:15:00,11:45:00,True,False,E2.1 Room 001,
+2025-04-08,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-04-15,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-04-22,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-04-29,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-05-06,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-05-13,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-05-20,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-05-27,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-06-03,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-06-10,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-06-17,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-06-24,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-07-01,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-07-08,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-07-15,uni-lecture,Programming C++,Tuesday,False,True,False,False,Lecture,12:15:00,13:45:00,True,False,E2.1 Room 001,
+2025-04-08,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-15,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-22,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-29,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-06,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-13,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-20,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-05-27,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-03,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-10,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-17,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-06-24,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-07-01,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-07-08,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-07-15,uni-lecture,Data Network,Tuesday,False,True,False,False,Lecture,14:00:00,16:00:00,True,False,E1.3 room 002,
+2025-04-08,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-04-15,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-04-22,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-04-29,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-05-06,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-05-13,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-05-20,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-05-27,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-06-03,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-06-10,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-06-17,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-06-24,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-07-01,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-07-08,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-07-15,uni-tutorial,Programming C++,Tuesday,False,True,False,False,Tutorial,14:15:00,15:45:00,True,False,E2.1 Room 001,
+2025-04-22,uni-assignment,Programming C++,Tuesday,False,False,False,True,Assignment,16:00:00,18:00:00,True,False,,C++ Assignment
+2025-04-09,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-04-16,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-04-23,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-04-30,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-05-07,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-05-14,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-05-21,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-05-28,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-06-04,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-06-11,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-06-18,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-06-25,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-07-02,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-07-09,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-07-16,uni-tutorial,Data Network,Wednesday,False,True,False,False,Tutorial Online,10:00:00,12:00:00,True,False,Online,
+2025-04-10,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-04-17,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-04-24,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-05-01,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-05-08,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-05-15,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-05-22,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-05-29,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-06-05,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-06-12,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-06-19,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-06-26,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-07-03,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-07-10,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
+2025-07-17,self-study,self study german,Thursday,False,True,False,False,,09:00:00,11:30:00,True,False,,2h session
