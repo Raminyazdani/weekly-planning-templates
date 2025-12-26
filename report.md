@@ -146,4 +146,106 @@ All findings logged in suggestion.txt with TAB-separated format as required.
 
 ## PHASE 3 - Portfolio-Readiness Changes
 
-(To be continued as changes are applied...)
+**Date:** 2025-12-26
+
+### 3.1 README.md Update ✅
+
+**Status:** COMPLETE
+**Action:** Completely rewrote README.md to portfolio-grade quality
+
+**Improvements:**
+- Added comprehensive "What It Does" section explaining the problem and approach
+- Expanded Tech Stack with component descriptions
+- Added detailed Repository Structure with file descriptions
+- Created comprehensive Setup & Installation section
+- Added step-by-step "How to Run" instructions for all use cases
+- Documented Input Data Format with table showing all CSV columns
+- Documented all Output Files with descriptions
+- Added Customization section for common modifications
+- Expanded Troubleshooting with specific solutions for common issues
+- Clarified purpose of development files (new_main.py, test.py, testing.py)
+- Removed outdated "weekly planner" directory reference
+- Improved professional tone throughout
+
+### 3.2 Rename & Reframe ✅
+
+**Status:** COMPLETE
+
+**Changes Applied:**
+1. **temp.csv → events.csv**
+   - More descriptive, professional name
+   - Updated reference in main.py line 472
+
+2. **Removed "uni-" prefixes** (academic traces):
+   - events.csv: uni-lecture → lecture, uni-tutorial → tutorial, uni-assignment → assignment, uni-exam → exam, uni-lab → lab
+   - data.csv: uni-lecture → lecture, uni-tutorial → tutorial, uni-lab → lab
+   - extended_data.csv: All uni-* prefixes removed
+   - table.html: Updated form options to remove uni- prefix; also fixed typo (leasure → leisure)
+   - new_main.py: Updated event type documentation
+
+**Verification:**
+```bash
+grep -ri "uni-lecture\|uni-tutorial\|uni-assignment\|uni-exam\|uni-lab" . --exclude-dir=.git --exclude-dir=history --exclude=report.md --exclude=suggestion.txt --exclude=suggestions_done.txt
+```
+Result: No matches (✓)
+
+### 3.3 Absolute Path Elimination ✅
+
+**Status:** COMPLETE (no issues found)
+
+No absolute or brittle paths were found in the codebase. All paths are relative to project root.
+
+### 3.4 Safe Refactors ✅
+
+**Status:** COMPLETE
+
+**Actions:**
+- Fixed typo: "leasure" → "leisure" in table.html and new_main.py
+- No other refactors needed - code is well-structured and functional
+
+### 3.5 Reproducibility & Dependencies ✅
+
+**Status:** COMPLETE
+
+**Changes:**
+1. **Added .gitignore**
+   - Python patterns (__pycache__, *.pyc, venv/, etc.)
+   - IDE files (.vscode/, .idea/)
+   - Generated output files (calendar.png, extended_data.csv, master_calendar.csv, frames/*.png)
+   - Temporary files
+
+2. **Fixed Missing Dependency**
+   - Added click>=8.0.0 to requirements.txt (was imported but not listed)
+
+**Notes:**
+- No real data fabrication needed - sample data already exists
+- No .env needed - application has sensible defaults
+- Project already runnable with proper dependencies
+
+### 3.6 Verification
+
+**Smoke Test Plan:**
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run main application: `python main.py`
+3. Check outputs: calendar.png, extended_data.csv, master_calendar.csv, frames/
+
+**Test Status:** PENDING (will execute next)
+
+### 3.7 Ledger Discipline ✅
+
+**Status:** COMPLETE
+
+All changes documented in:
+- **suggestion.txt:** 15 issues identified, statuses updated (10 APPLIED, 5 NOT_APPLIED with reasons)
+- **suggestions_done.txt:** 10 applied changes with before/after snippets and notes
+
+**Summary of Changes:**
+- 10 issues resolved (APPLIED)
+- 5 issues intentionally not applied with clear rationale
+- 0 issues pending
+
+---
+
+## PHASE 3 VERIFICATION
+
+(To be completed next...)

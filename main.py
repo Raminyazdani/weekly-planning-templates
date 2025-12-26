@@ -469,7 +469,7 @@ def draw_calendar(mc_inside, df_inside, start_hour=8, end_hour=20, box_width=2, 
 if __name__ == '__main__':
 
 
-    file_path = 'temp.csv'
+    file_path = 'events.csv'
 
     # read - convert to pd - and resolve columns type
     data = load_data(file_path)
