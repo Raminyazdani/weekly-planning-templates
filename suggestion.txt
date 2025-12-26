@@ -1,1 +1,16 @@
 TYPE	FILE	LOCATOR	BEFORE_SNIPPET	PROPOSED_CHANGE	RATIONALE	STATUS
+TRACE	temp.csv	row 2,6,17,22-24	uni-tutorial, uni-assignment	Use generic event types: lecture, tutorial, assignment, exam, lab (without "uni-" prefix)	Remove academic-specific prefix to make data more professional and general-purpose	NOT_APPLIED
+TRACE	data.csv	row 3,6,8	uni-tutorial	Use generic event types: lecture, tutorial, assignment, exam, lab	Remove academic-specific prefix to make data more professional and general-purpose	NOT_APPLIED
+TRACE	extended_data.csv	multiple rows	uni-tutorial, uni-assignment, uni-exam, uni-lecture, uni-lab	Use generic event types: lecture, tutorial, assignment, exam, lab	Remove academic-specific prefix to make data more professional and general-purpose	NOT_APPLIED
+TRACE	table.html	lines 69-71	<option value="uni-lecture">uni-lecture</option>, <option value="uni-tutorial">uni-tutorial</option>, <option value="uni-lab">uni-lab</option>	Change to: <option value="lecture">lecture</option>, <option value="tutorial">tutorial</option>, <option value="lab">lab</option>	Remove academic-specific prefix from form options	NOT_APPLIED
+TRACE	new_main.py	line 6	uni-lecture,uni-tutorial,uni-lab	Change to: lecture, tutorial, lab, exam, assignment	Update event type documentation	NOT_APPLIED
+RENAME	temp.csv	filename	temp.csv	Rename to events.csv or schedule.csv	"temp" suggests temporary/test file; use descriptive name	NOT_APPLIED
+RENAME	main.py	line 472	file_path = 'temp.csv'	file_path = 'events.csv'	Update reference to renamed file	NOT_APPLIED
+STRUCTURE	test.py,testing.py,new_main.py	filenames	Multiple development artifacts	Archive or consolidate test/development files	Clean up iterative development artifacts	NOT_APPLIED
+DOC	README.md	line 53	cd "weekly planner"	Remove or update - current directory name is "weekly-planning-templates"	Fix outdated directory reference	NOT_APPLIED
+DOC	README.md	lines 24,64,67	new_main.py references	Clarify purpose or remove if obsolete	Unclear what new_main.py is for vs main.py	NOT_APPLIED
+STRUCTURE	.gitignore	missing	N/A	Create .gitignore with Python, Flask, output files patterns	Prevent committing generated files, Python cache, virtualenv	NOT_APPLIED
+STRUCTURE	frames/	directory	100+ generated PNG files	Add frames/ to .gitignore	These are generated outputs, should not be in git	NOT_APPLIED
+STRUCTURE	extended_data.csv,master_calendar.csv,calendar.png	generated files	Generated output files in root	Add to .gitignore - these are generated outputs	Prevent committing generated files	NOT_APPLIED
+OTHER	dayereh.txt	file	Contains comma-separated numbers, testing.py parses it	Clarify purpose or remove if test data	Unclear business purpose of this file	NOT_APPLIED
+OTHER	requirements.txt	missing click	main.py imports click (line 8) but requirements.txt doesn't include it	Add click to requirements.txt	Fix missing dependency	NOT_APPLIED
