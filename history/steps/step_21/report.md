@@ -490,11 +490,289 @@ The repository is now:
 
 ---
 
-## END OF REPORT
+## END OF REPORT (PREVIOUS RUN)
 
-Portfolio readiness transformation completed successfully.
+Portfolio readiness transformation completed successfully (First Run).
 
 **Date Completed:** 2025-12-26  
 **Total Phases:** 4/4 ✅  
 **All Deliverables:** Complete ✅  
 **Verification:** Passed ✅
+
+---
+
+## PHASE 5 - STEP-EXPANDED GIT HISTORIAN (NEW RUN)
+
+**Date:** 2025-12-27
+**Status:** ✅ COMPLETE
+
+### Objectives
+
+Regenerate the Git Historian outputs with **≥1.5× more steps** while keeping the final state identical. This is a catch-up audit plus step-expansion run based on the new portfolio requirements.
+
+### 5.1 Catch-Up Audit ✅
+
+**Status:** COMPLETE
+
+**Checks Performed:**
+1. ✅ All portfolio deliverables exist and contain real content
+   - project_identity.md: ✓ Complete
+   - README.md: ✓ Portfolio-grade
+   - report.md: ✓ Comprehensive log
+   - suggestion.txt: ✓ All entries have STATUS=APPLIED or STATUS=NOT_APPLIED
+   - suggestions_done.txt: ✓ All applied changes documented with locators
+
+2. ✅ Verification re-check performed
+   - Application runs successfully (generated calendar.png, CSVs)
+   - No academic traces in output files
+   - All file references updated correctly
+
+3. ✅ Historian validation from previous run
+   - No snapshot contained `.git/` directory
+   - No snapshot contained `history/` directory
+   - Final snapshot (step_14) was close to working tree (needed .github/ update)
+
+### 5.2 Step Expansion Plan ✅
+
+**Previous Run:** N_old = 14 steps  
+**Target:** N_target = ceil(14 × 1.5) = 21 steps  
+**Achieved:** N_new = 21 steps  
+**Multiplier:** 21/14 = **1.5×** (exactly meeting requirement)
+
+### 5.3 Expansion Strategy ✅
+
+**Archive Old History:**
+- Moved existing `history/` content to `history/_previous_run/`
+- Preserved all 14 original steps for reference
+
+**Split Large Commits (4 splits → 7 steps):**
+1. Old Step 04 (Calendar generation) → New Steps 05-06
+   - Step 05: Date range generation only
+   - Step 06: Add German holiday integration
+   
+2. Old Step 06 (Visualization) → New Steps 08-10
+   - Step 08: Basic matplotlib plotting
+   - Step 09: Color coding by event group
+   - Step 10: Auto font sizing
+   
+3. Old Step 07 (Parallel processing) → New Steps 11-12
+   - Step 11: Frame generation (sequential)
+   - Step 12: Optimize with parallel processing
+   
+4. Old Step 13 (README) → New Steps 19-20
+   - Step 19: README structure and basic sections
+   - Step 20: Detailed content and examples
+
+**Oops→Hotfix Sequences (2 sequences, 2 added steps):**
+
+1. **Sequence #1 (Steps 03→04): Flask Endpoint Typo**
+   - **Oops (Step 03):** Flask route defined as `@app.post("/entrey")` instead of `"/entry"`
+   - **Impact:** POST requests to `/entry` return 404 errors
+   - **Hotfix (Step 04):** Corrected endpoint path to `/entry`
+   - **File:** app.py (line 5)
+   - **Rationale:** Common typo in route definitions, immediately caught during manual testing
+
+2. **Sequence #2 (Steps 13→14): HTML Form Spelling**
+   - **Oops (Step 13):** Event type dropdown contains "leasure" instead of "leisure"
+   - **Impact:** Misspelling visible in UI, affects data consistency
+   - **Hotfix (Step 14):** Corrected all instances to "leisure"
+   - **File:** table.html (option values)
+   - **Rationale:** Realistic typo that would be caught during UI testing
+
+**Direct Carries (7 unchanged steps):**
+- Steps 01-02: Initial setup, Flask server
+- Step 07: Recurring event expansion  
+- Step 15: Testing utilities
+- Steps 16-18: Portfolio refinement (academic prefixes, naming, infrastructure)
+- Step 21: Portfolio metadata (final)
+
+### 5.4 Implementation ✅
+
+**Created Files:**
+- `history/github_steps.md` (20KB, comprehensive documentation)
+- `history/steps/step_01` through `step_21` (21 complete snapshots)
+- `history/_previous_run/` (archived old 14-step history)
+
+**Documentation:**
+- Added "History Expansion Note" section in github_steps.md
+- Included old→new step mapping table
+- Documented both oops→hotfix sequences with full details
+- Explained expansion methodology
+
+### 5.5 Verification ✅
+
+**Snapshot Count:**
+```bash
+ls -d history/steps/step_* | wc -l
+# Result: 21 ✓
+```
+
+**Exclusion Rules:**
+```bash
+find history/steps -name ".git" -type d
+# Result: (empty) ✓
+
+find history/steps -name "history" -type d
+# Result: (empty) ✓
+```
+
+**Final Snapshot Match:**
+```bash
+diff -r --brief --exclude=".git" --exclude="history" --exclude="__pycache__" . history/steps/step_21/
+# Result: No differences ✓
+```
+
+**Oops/Hotfix Verification:**
+- Step 03: Contains `/entrey` typo ✓
+- Step 04: Has `/entry` fix ✓
+- Step 13: Contains `leasure` typo ✓
+- Step 14: Has `leisure` fix ✓
+
+### 5.6 Expansion Metrics ✅
+
+| Metric | Value |
+|--------|-------|
+| N_old | 14 steps |
+| N_new | 21 steps |
+| Multiplier | 1.5× (exactly) |
+| Split commits | 4 (became 7 steps) |
+| Oops→hotfix pairs | 2 (added 2 steps) |
+| Direct carries | 7 steps |
+| Total expansion | +7 steps |
+
+### 5.7 Old→New Step Mapping ✅
+
+| Old | New | Type | Description |
+|-----|-----|------|-------------|
+| 01 | 01 | Direct | Initial setup |
+| 02 | 02 | Direct | Flask server |
+| 03 | 03-04 | **Oops+Fix** | Event data + endpoint typo fix |
+| 04 | 05-06 | Split | Calendar: date range + holidays |
+| 05 | 07 | Direct | Recurring events |
+| 06 | 08-10 | Split | Visualization: plot + colors + fonts |
+| 07 | 11-12 | Split | Frames: sequential + parallel |
+| 08 | 13-14 | **Oops+Fix** | HTML form + spelling fix |
+| 09 | 15 | Direct | Testing utilities |
+| 10 | 16 | Direct | Remove academic prefixes |
+| 11 | 17 | Direct | Rename temp.csv |
+| 12 | 18 | Direct | Infrastructure |
+| 13 | 19-20 | Split | README: structure + content |
+| 14 | 21 | Direct | Portfolio metadata |
+
+---
+
+## FINAL COMPLETION STATUS (UPDATED)
+
+### All Phases Complete ✅
+
+- **Phase 0**: Initial Setup ✅
+- **Phase 1**: Understanding & Target Identity ✅
+- **Phase 2**: Pre-Change Audit ✅
+- **Phase 3**: Portfolio-Readiness Changes ✅
+- **Phase 4**: Git Historian (14 steps) ✅
+- **Phase 5**: Step-Expanded Git Historian (21 steps) ✅
+
+### Updated Deliverables Summary
+
+#### Portfolio-Readiness Deliverables ✅
+1. ✅ `project_identity.md` - Professional project metadata
+2. ✅ `README.md` - Portfolio-grade documentation
+3. ✅ `report.md` - Complete execution log (this file, now updated)
+4. ✅ `suggestion.txt` - Issues ledger (15 issues, all with final status)
+5. ✅ `suggestions_done.txt` - Changes ledger (10 changes documented)
+
+#### Git Historian Deliverables ✅
+1. ✅ `history/github_steps.md` - Complete 21-step development narrative with expansion note
+2. ✅ `history/steps/step_01` through `step_21` - 21 full snapshots
+3. ✅ `history/_previous_run/` - Archived 14-step history for reference
+
+### Step-Expansion Achievements ✅
+
+✅ N_new = 21 ≥ ceil(N_old × 1.5) = ceil(14 × 1.5) = 21  
+✅ Sequential integer step numbering (step_01...step_21)  
+✅ Two oops→hotfix sequences inserted and documented  
+✅ Four large commits split into smaller logical steps  
+✅ Final snapshot matches current working tree exactly  
+✅ No snapshots contain `.git/` or `history/`  
+✅ Comprehensive expansion documentation in github_steps.md  
+
+### Verification Results (Updated)
+
+✅ Main application runs successfully  
+✅ Flask API works correctly  
+✅ No academic traces in output files  
+✅ All file references updated  
+✅ Dependencies complete  
+✅ 21 snapshots created and verified  
+✅ Step_21 matches current state exactly  
+✅ Oops/hotfix sequences verified  
+✅ 1.5× expansion multiplier achieved  
+
+### Final Repository State
+
+**Status:** Portfolio-ready + Step-Expanded Historian ✅
+
+The repository is now:
+- Professional and polished
+- Well-documented with portfolio-grade README
+- Free of academic traces
+- Properly structured with .gitignore
+- Verified as working (application + API)
+- Complete with realistic 21-step git history reconstruction
+- Expansion properly documented with old→new mapping
+- Contains authentic development mistakes and fixes
+
+**Total Issues Identified:** 15  
+**Issues Resolved:** 10  
+**Issues Not Applied (with rationale):** 5  
+
+**Historian Steps (Previous):** 14  
+**Historian Steps (Current):** 21  
+**Expansion Multiplier:** 1.5× (exactly meeting requirement)
+
+---
+
+## FINAL SELF-AUDIT CHECKLIST
+
+### Portfolio Deliverables
+- [x] project_identity.md complete and aligned with README
+- [x] README.md portfolio-grade and accurate
+- [x] suggestion.txt contains findings with final statuses (all entries have STATUS)
+- [x] suggestions_done.txt contains all applied changes with before/after + locators
+- [x] Repo runs successfully (verified with smoke test)
+- [x] No blockers; application generates expected outputs
+
+### Git Historian Deliverables
+- [x] history/github_steps.md complete + includes "History expansion note"
+- [x] history/steps contains step_01..step_21 (sequential integers)
+- [x] N_new >= ceil(N_old * 1.5): 21 >= 21 ✓
+- [x] At least one oops→hotfix sequence (achieved: 2 sequences)
+- [x] step_21 matches final working tree exactly (excluding history/)
+- [x] No snapshot includes history/ or .git/
+
+### Safety & Quality
+- [x] No secrets added
+- [x] No fabricated datasets (all data is sample/example)
+- [x] No feature creep (only expansion of existing history)
+- [x] Realistic development narrative
+- [x] All expansion choices documented
+
+### Documentation
+- [x] Expansion multiplier calculated and documented (1.5×)
+- [x] Old→new step mapping provided
+- [x] Oops→hotfix sequences described in detail
+- [x] Split commits explained with rationale
+- [x] Final verification results documented
+
+---
+
+## END OF REPORT (STEP-EXPANDED EDITION)
+
+Portfolio readiness + Step-expanded Git Historian completed successfully.
+
+**Date Completed:** 2025-12-27  
+**Total Phases:** 5/5 ✅  
+**All Deliverables:** Complete ✅  
+**Historian Steps:** 21 (1.5× expansion) ✅  
+**Verification:** Passed ✅  
+**Self-Audit:** All items complete ✅
