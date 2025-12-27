@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.post("/entry")
+@app.post("/entrey")
 def receive_entry():
     data = request.get_json(force=True)
     # For now, just echo back

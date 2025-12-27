@@ -1,0 +1,16 @@
+TYPEFILELOCATORBEFORE_SNIPPETPROPOSED_CHANGERATIONALESTATUS
+TRACEevents.csvrow 2,6,17,22-24uni-tutorial, uni-assignmentUse generic event types: lecture, tutorial, assignment, exam, lab (without "uni-" prefix)Remove academic-specific prefix to make data more professional and general-purposeAPPLIED
+TRACEdata.csvrow 3,6,8uni-tutorialUse generic event types: lecture, tutorial, assignment, exam, labRemove academic-specific prefix to make data more professional and general-purposeAPPLIED
+TRACEextended_data.csvmultiple rowsuni-tutorial, uni-assignment, uni-exam, uni-lecture, uni-labUse generic event types: lecture, tutorial, assignment, exam, labRemove academic-specific prefix to make data more professional and general-purposeAPPLIED
+TRACEtable.htmllines 69-71<option value="uni-lecture">uni-lecture</option>, <option value="uni-tutorial">uni-tutorial</option>, <option value="uni-lab">uni-lab</option>Change to: <option value="lecture">lecture</option>, <option value="tutorial">tutorial</option>, <option value="lab">lab</option>Remove academic-specific prefix from form optionsAPPLIED
+TRACEnew_main.pyline 6uni-lecture,uni-tutorial,uni-labChange to: lecture, tutorial, lab, exam, assignmentUpdate event type documentationAPPLIED
+RENAMEtemp.csvfilenametemp.csvRename to events.csv or schedule.csv"temp" suggests temporary/test file; use descriptive nameAPPLIED
+RENAMEmain.pyline 472file_path = 'temp.csv'file_path = events.csv Update reference to renamed fileAPPLIED
+STRUCTUREtest.py,testing.py,new_main.pyfilenamesMultiple development artifactsArchive or consolidate test/development filesClean up iterative development artifactsNOT_APPLIED - keeping as development history
+DOCREADME.mdline 53cd "weekly planner"Remove or update - current directory name is "weekly-planning-templates"Fix outdated directory referenceNOT_APPLIED - will update README
+DOCREADME.mdlines 24,64,67new_main.py referencesClarify purpose or remove if obsoleteUnclear what new_main.py is for vs main.py NOT_APPLIED - will update README
+STRUCTURE.gitignoremissingN/ACreate .gitignore with Python, Flask, output files patternsPrevent committing generated files, Python cache, virtualenvAPPLIED
+STRUCTUREframes/directory100+ generated PNG filesAdd frames/ to .gitignore These are generated outputs, should not be in gitAPPLIED
+STRUCTUREextended_data.csv,master_calendar.csv,calendar.pnggenerated filesGenerated output files in rootAdd to .gitignore - these are generated outputsAPPLIED
+OTHERdayereh.txtfileContains comma-separated numbers, testing.py parses itClarify purpose or remove if test data.csv Unclear business purpose of this fileNOT_APPLIED - keeping as sample data
+OTHERrequirements.txtmissing clickmain.py imports click (line 8) but requirements.txt doesn't include itAdd click to requirements.txtFix missing dependencyAPPLIED
